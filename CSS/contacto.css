@@ -1,0 +1,112 @@
+.contacto {
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(/Imagenes/backmapa.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+       
+}
+
+.contacto .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contacto h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contacto .fila {
+    display: flex;
+}
+
+.contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+
+.contacto .col input, .contacto .col textarea {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #252A2E;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn_contacto {
+    background-color: #22e4e4;
+    border-radius: 4px; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.btn_contacto .overlay {
+    border-radius: 4px;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    -webkit-transition-duration: 5s; 
+    transition-duration: 5s;
+}
+
+.btn_contacto:hover .overlay {
+    width: 100%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.micontacto-descripcion {
+    background: #252A2E;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    margin-bottom: 10px;  
+}
+
+.micontacto-elemento {
+    color: #fff;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.micontacto-icono {
+    background-color: var(--letra-clara);
+    
+    /* display: inline-block; */
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.micontacto-detalle {
+    color: var(--letra-clara);
+    font-weight: 300;
+    text-decoration: none;
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
