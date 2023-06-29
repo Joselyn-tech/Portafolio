@@ -14,9 +14,9 @@ function seleccionar(){
     //oculto el menu una vez que selecciono una opcion
     document.getElementById("nav").classList = "";
     menuVisible = false;
-    }
+}
 
-    //detecto el scrolling para aplicar la animacion de la barra de habilidades
+//detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();
 } 
