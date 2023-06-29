@@ -1,6 +1,6 @@
 .contacto {
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(/Imagenes/backmapa.jpg);
+    url(Imagenes/backmapa.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
